@@ -1,0 +1,99 @@
+
+html{
+    height: 100%;
+}
+
+body {
+    height : 100%;
+    background-image: url(img/background.jpg);
+    font-family: arial;
+}
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+    margin-top: 30px;
+    text-transform: uppercase;
+    color: salmon;
+    text-shadow: 1.5px 1.5px 0 #ffffff, 0px 1.5px 0 #ffffff, -1.5px -1.5px 0 #ffffff, -1.5px -1.5px 0 #ffffff, -1.5px 1.5px 0 #ffffff, 1.5px -1.5px 0 #ffffff, 0.7778174593px 0.7778174593px 0 #aaaaaa, 1.5556349186px 1.5556349186px 0 #aaaaaa, 2.3334523779px 2.3334523779px 0 #aaaaaa, 3.1112698372px 3.1112698372px 0 #aaaaaa, 3.8890872965px 3.8890872965px 0 #aaaaaa, 4.6669047558px 4.6669047558px 0 #aaaaaa, 5.4447222151px 5.4447222151px 0 #aaaaaa, 6.2225396744px 6.2225396744px 0 #aaaaaa, 7.0003571337px 7.0003571337px 0 #aaaaaa, 7.7781745931px 7.7781745931px 0 #aaaaaa;
+}
+
+.container {
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+    position: relative;
+}
+
+.area-komputer {
+    width: 560px;
+    height: 250px;
+    margin: 5px auto;
+    background-color: #6bc5d2;
+    position: relative;
+    padding-top: 40px;
+    box-sizing: border-box;
+    border-radius: 40px;
+}
+
+.area-player {
+    width: 560px;
+    height: 250px;
+    margin: 5px auto;
+    background-color:#d2fafb;
+    position: relative;
+    border-radius: 40px;
+}
+
+.info {
+    width: 400px;
+    height: 60px;
+    border: 4px solid salmon;
+    border-radius: 40px;
+    position: absolute;
+    left: 50%;
+    margin-left: -199px;
+    top: 50%;
+    margin-top: -38px;
+    background-color: white;
+    z-index: 1;
+    text-align: center;
+    line-height: 60px;
+    color: grey;
+    font-size: 26px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+}
+
+ul {
+    padding-top: 80px;
+    padding-left: 25px;
+}
+
+li {
+    display: inline-block;
+    margin: 0 18px;
+}
+
+img {
+    width: 130px;
+    height: 130px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.gunting, .batu, .kertas {
+    transition: .3s;
+    position: relative;
+    top:0;
+    cursor: pointer;
+}
+
+.gunting:hover, .batu:hover, .kertas:hover, .active {
+    box-shadow: 0 0 10px 5px rgb(79, 163, 184);
+}
+
+.gunting:active, .batu:active, .kertas:active {
+    top: 2px;
+}
