@@ -23,7 +23,6 @@ function winOrlose(computer, player) {
     else if (player == 'gunting') {
         if (computer == 'batu') {
             hasil = 'MAAF, KAMU KALAH!'
-
         }
 
         else {
@@ -34,7 +33,6 @@ function winOrlose(computer, player) {
     else if (player == 'batu') {
         if (computer == 'gunting') {
             hasil = 'SELAMAT, KAMU MENANG!'
-
         }
 
         else {
@@ -45,7 +43,6 @@ function winOrlose(computer, player) {
     else if (player == 'kertas') {
         if (computer == 'batu') {
             hasil = 'SELAMAT, KAMU MENANG!'
-
         }
 
         else {
